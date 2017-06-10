@@ -30,10 +30,9 @@ public class Browser extends AppCompatActivity {
                     setTitle(name);
             }
         });
-
         myWebView.setWebViewClient(new WebViewClient());
         myWebView.clearCache(true);
-        myWebView.getSettings().setDomStorageEnabled(true);
+        myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.getSettings().setBuiltInZoomControls(true);
         myWebView.loadUrl(url);
 

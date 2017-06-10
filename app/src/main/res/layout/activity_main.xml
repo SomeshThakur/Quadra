@@ -68,7 +68,7 @@
         android:id="@+id/thingspeak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thing Speak Graph"
+        android:text="Graphical View"
         android:onClick="performance"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
