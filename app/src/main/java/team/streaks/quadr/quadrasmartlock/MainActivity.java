@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
             int value = Integer.parseInt(result);
             NotificationCompat.Builder builder =
                     new NotificationCompat.Builder(MainActivity.this);
-
+//Test
             if (value >= 500) {
                 builder.setContentTitle("Warning!");
                 builder.setContentText("Change your car headlights");
